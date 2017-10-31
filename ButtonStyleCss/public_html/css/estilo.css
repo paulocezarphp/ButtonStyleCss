@@ -1,0 +1,135 @@
+
+/* 
+    Created on : 31/10/2017, 19:27:26
+    Author     : Paulo Cezar
+*/
+
+body{
+    
+    background:#f2f2f2;
+    color:#555555;
+    
+}
+
+#fantasma{
+    
+    padding: 10px 50px;
+    outline: 0 none;
+    color: #555555;
+    font-size: 16px;
+    cursor: pointer;
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+    
+}
+
+#opera{
+    
+    padding: 10px 50px;
+    outline: 0 none;
+    color: #f2f2f2;
+    font-size: 16px;
+    border: 0px;
+    cursor: pointer;
+    background: #606c88;
+    background: -moz-linear-gradient(top, #606c88 0%, #3f4c6b 100%);
+    background: -webkit-linear-gradient(top, #606c88 0%,#3f4c6b 100%);
+    background: linear-gradient(to bottom, #606c88 0%,#3f4c6b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 );
+    
+}
+
+#opera:hover{
+    
+    background: #465987;
+    background: -moz-linear-gradient(top, #465987 0%, #344368 100%);
+    background: -webkit-linear-gradient(top, #465987 0%,#344368 100%);
+    background: linear-gradient(to bottom, #465987 0%,#344368 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#465987', endColorstr='#344368',GradientType=0 );
+
+}
+
+#opera:active{
+    
+    border: 3px solid #465987;
+    border-style: inset;
+    padding: 7px 47px;
+    
+}
+
+#dragon{
+    
+    padding: 7px 47px;
+    outline: 0 none;
+    color: #f2f2f2;
+    font-size: 16px;
+    border: 0px;
+    border: 3px solid #f3c5bd;
+    cursor: pointer;
+    
+    background: #f3c5bd;
+    background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 40%, #ea2803 47%, #ff6600 53%, #c72200 100%);
+    background: -webkit-linear-gradient(top, #f3c5bd 0%,#e86c57 40%,#ea2803 47%,#ff6600 53%,#c72200 100%);
+    background: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 40%,#ea2803 47%,#ff6600 53%,#c72200 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 );
+    
+}
+
+#dragon:hover{
+    
+    background: #f3c5bd;
+    background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 49%, #700202 55%, #a31800 75%, #770000 100%);
+    background: -webkit-linear-gradient(top, #f3c5bd 0%,#e86c57 49%,#700202 55%,#a31800 75%,#770000 100%);
+    background: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 49%,#700202 55%,#a31800 75%,#770000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#770000',GradientType=0 );
+
+}
+
+#dragon:active{
+    
+    border-style: inset;
+    padding: 7px 47px;
+    
+}
+
+#elfi{
+    
+    padding: 10px 50px;
+    outline: 0 none;
+    color: #f2f2f2;
+    font-size: 16px;
+    border: 0px;
+    border: 3px solid #f3c5bd;
+    cursor: pointer;    
+    background: #efc5ca;
+    background: -moz-linear-gradient(top, #efc5ca 0%, #d24b5a 50%, #ba2737 51%, #f18e99 100%);
+    background: -webkit-linear-gradient(top, #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%);
+    background: linear-gradient(to bottom, #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99',GradientType=0 );
+    
+}
+
+#elfi:hover{
+    
+    background: #eda6ae;
+    background: -moz-linear-gradient(top, #eda6ae 1%, #d24b5a 50%, #ba2737 51%, #ef394b 99%);
+    background: -webkit-linear-gradient(top, #eda6ae 1%,#d24b5a 50%,#ba2737 51%,#ef394b 99%);
+    background: linear-gradient(to bottom, #eda6ae 1%,#d24b5a 50%,#ba2737 51%,#ef394b 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eda6ae', endColorstr='#ef394b',GradientType=0 );
+
+}
+
+#elfi:active{
+    
+    border-style: inset;
+    padding: 10px 50px;
+    background: #eda6ae;
+    background: -moz-linear-gradient(top, #efc5ca 0%, #d24b5a 50%, #ba2737 51%, #f18e99 100%);
+    background: -webkit-linear-gradient(top, #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%);
+    background: linear-gradient(to bottom, #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99',GradientType=0 );
+    
+}
